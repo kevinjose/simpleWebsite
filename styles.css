@@ -1,0 +1,104 @@
+/* Reset default margin and padding */
+* {
+    margin: 0.5%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply basic styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f5f8; /* Light gray-blue background */
+    color: #333; /* Dark gray text color */
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2c3e50; /* Dark blue header */
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.left, .main, .right {
+    
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    list-style-position: inside;
+}
+.left {
+    min-width: 18%;
+    text-align: center;
+}
+.right {
+    min-width: 18%;
+}
+.main {
+    min-width: 50%;
+    max-width: 50%;
+}
+.left img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.left h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.left p {
+    font-size: 16px;
+}
+
+.main h2, .right h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.main p {
+    font-size: 16px;
+}
+
+.right ul {
+    list-style: none;
+}
+
+.right ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #2c3e50; /* Dark blue footer */
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 16px;
+}
