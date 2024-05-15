@@ -43,14 +43,16 @@ header h1 {
     list-style-position: inside;
 }
 .left {
-    min-width: 18%;
+    min-width: 320px;
+    max-width: 18%;
     text-align: center;
 }
 .right {
-    min-width: 18%;
+    min-width: 320px;
+    max-width: 18%;
 }
 .main {
-    min-width: 50%;
+    min-width: 320px;
     max-width: 50%;
 }
 .left img {
