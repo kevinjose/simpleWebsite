@@ -104,3 +104,7 @@ footer h2 {
 footer p {
     font-size: 16px;
 }
+
+.markdown-body {
+    background-color: #fff;
+}
