@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+
+
 /* Apply basic styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -105,7 +107,7 @@ footer p {
     font-size: 16px;
 }
 
-.md {
+.markdown-body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f2f5f8; /* Light gray-blue background */
     color: #333; /* Dark gray text color */
