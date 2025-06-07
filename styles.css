@@ -45,7 +45,7 @@ header h1 {
     list-style-position: inside;
 }
 .left {
-    min-width: 320px;
+    min-width: 300px;
     max-width: 18%;
     text-align: center;
 }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Photography Showcase</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="top-bar">
+    <a href="https://kevinjose.net" class="home-link">Home</a>
+    <button class="random-btn" onclick="randomImage()">Random</button>
+  </div>
+  <div class="container">
+    <div class="side-button left" onclick="prevImage()">&#10094;</div>
+    <div class="main-content">
+      <div class="main-block">
+        <div class="main-image">
+          <img id="main-photo" src="" alt="Main Photo" />
+        </div>
+        <div class="caption">
+          <b id="caption-title"></b>
+          <i id="caption-desc"></i>
+        </div>
+      </div>
+    </div>
+    <div class="side-button right" onclick="nextImage()">&#10095;</div>
+  </div>
+  <div class="previews" id="previews"></div>
+  <script src="script.js"></script>
+</body>
+</html>
