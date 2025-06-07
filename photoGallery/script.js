@@ -75,3 +75,27 @@ document.addEventListener("keydown", (e) => {
 });
 
 loadCaptions();
+
+// --- Touch swipe detection ---
+let touchStartX = 0;
+let touchEndX = 0;
+
+document.addEventListener('touchstart', e => {
+  touchStartX = e.changedTouches[0].screenX;
+}, false);
+
+document.addEventListener('touchend', e => {
+  touchEndX = e.changedTouches[0].screenX;
+  handleGesture();
+}, false);
+
+function handleGesture() {
+  const diff = touchEndX - touchStartX;
+  if (Math.abs(diff) > 50) { // swipe threshold
+    if (diff < 0) {
+      nextImage(); // swipe left
+    } else {
+      prevImage(); // swipe right
+    }
+  }
+}
