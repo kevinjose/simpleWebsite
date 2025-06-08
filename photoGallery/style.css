@@ -65,6 +65,7 @@ body {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 50%;
   z-index: 10;
+  visibility: hidden;
 }
 
 .side-button.left {
@@ -139,8 +140,8 @@ body {
   }
 
   .main-image {
-    width: 60vw;
-    height: 60vh;
+    width: 85vw;
+    height: 50vh;
     margin-bottom: 1rem;
   }
 
