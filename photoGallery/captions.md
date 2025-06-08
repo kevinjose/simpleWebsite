@@ -1,11 +1,15 @@
 ## graveyard
-**Graveyard in London**  
-*near Mile End*
+**Tower Hamlets Cemetery Park**  
+*London*
 
 ## cornwall
-**St Ives, Cornwall**  
-* *
+**Beach**  
+*St Ives, Cornwall*
 
 ## sailboat
 **Sailboat at sunset**  
 *Somehere in DK*
+
+## benchCornwall
+**A family on a Bench**
+*St Ives, Cornwall*
