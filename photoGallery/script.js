@@ -31,7 +31,7 @@ async function loadCaptions() {
 
 function showImage(index) {
   const img = imageData[index];
-  mainPhoto.src = img.src;
+  mainPhoto.src = img.src + '_main.jpg';
   captionTitle.textContent = img.title;
   captionDesc.textContent = img.desc;
 }
@@ -59,7 +59,7 @@ function renderPreviews() {
   previews.innerHTML = '';
   imageData.forEach((img, i) => {
     const thumb = document.createElement("img");
-    thumb.src = img.src;
+    thumb.src = img.src + '_thumb.jpg';
     thumb.className = "preview-img";
     thumb.onclick = () => {
       currentIndex = i;

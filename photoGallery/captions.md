@@ -1,7 +1,11 @@
-## graveyard.jpg
+## graveyard
 **Graveyard in London**  
 *near Mile End*
 
-## cornwall.JPG
+## cornwall
 **St Ives, Cornwall**  
 * *
+
+## sailboat
+**Sailboat at sunset**  
+*Somehere in DK*
