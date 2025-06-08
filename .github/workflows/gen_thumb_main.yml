@@ -6,6 +6,7 @@ on:
     paths:
       - "photoGallery/images/**.jpg"
       - "photoGallery/scripts/gen_thumbs.py"
+  workflow_dispatch:
 
 jobs:
   generate:
