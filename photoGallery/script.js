@@ -18,7 +18,7 @@ async function loadCaptions() {
     const descMatch = lines[1]?.match(/\*(.*?)\*/);
 
     return {
-      src: 'images/' + filename,
+      src: 'images/' + filename + '.jpg',
       title: titleMatch ? titleMatch[1] : '',
       desc: descMatch ? descMatch[1] : ''
     };
@@ -29,9 +29,15 @@ async function loadCaptions() {
   renderPreviews();
 }
 
+function insertSuffix(filename, suffix) {
+  const dotIndex = filename.lastIndexOf('.');
+  if (dotIndex === -1) return filename + suffix;
+  return filename.slice(0, dotIndex) + suffix + filename.slice(dotIndex);
+}
+
 function showImage(index) {
   const img = imageData[index];
-  mainPhoto.src = img.src + '_main.jpg';
+  mainPhoto.src = insertSuffix(img.src, '_main');
   captionTitle.textContent = img.title;
   captionDesc.textContent = img.desc;
 }
@@ -59,7 +65,7 @@ function renderPreviews() {
   previews.innerHTML = '';
   imageData.forEach((img, i) => {
     const thumb = document.createElement("img");
-    thumb.src = img.src + '_thumb.jpg';
+    thumb.src = insertSuffix(img.src, '_thumb');
     thumb.className = "preview-img";
     thumb.onclick = () => {
       currentIndex = i;
