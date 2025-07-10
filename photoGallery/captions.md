@@ -37,3 +37,11 @@
 ## windTurbines
 **Wind Turbines**
 *Ringkobing*
+
+## weepingWillow
+**Weeping Willow**
+*Cambridge*
+
+## sotonFair
+**Game(s)**
+*Southampton*
