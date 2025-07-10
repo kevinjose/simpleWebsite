@@ -45,3 +45,7 @@
 ## sotonFair
 **Game(s)**
 *Southampton*
+
+## shard
+**The Shard**
+*London*
